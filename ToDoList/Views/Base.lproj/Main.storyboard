@@ -12,7 +12,7 @@
         <!--Missions-->
         <scene sceneID="ryF-k2-kxN">
             <objects>
-                <tableViewController id="dTa-QH-BY7" customClass="ViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="dTa-QH-BY7" customClass="TableViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ckc-EU-gs1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,7 +33,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Missions" id="OX6-uX-0l2">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="FsG-uV-uEZ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="FsG-uV-uEZ">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="addItemButtonPressed:" destination="dTa-QH-BY7" id="w3t-mx-EtQ"/>

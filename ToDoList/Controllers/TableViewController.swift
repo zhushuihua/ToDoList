@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UITableViewController {
+class TableViewController: UITableViewController {
     let defaults = UserDefaults.standard
     var items = [String]()
     var dones = [Bool]()
@@ -24,7 +24,6 @@ class ViewController: UITableViewController {
         {
             self.dones = dones
         }
-        print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first)
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
